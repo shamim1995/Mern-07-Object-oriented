@@ -164,6 +164,8 @@ devs.map(data=>{
     Name    : ${ data.name }
     Father's Name   : ${ data.father_name}
     
+    subject         : Marks   : GPA   : GRADE  
+
     Bangla          : ${ bangla }      = ${result.gpa(bangla)}    = ${result.grade(result.gpa(bangla))}
     English         : ${ english }      = ${result.gpa(english)}    = ${result.grade(result.gpa(english))}
     Math            : ${ math}      = ${result.gpa(math)}    = ${result.grade(result.gpa(math))}
